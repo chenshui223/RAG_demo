@@ -1,0 +1,8 @@
+langchain==0.0.316 \
+    openai==0.28.1  \
+    tiktoken==0.5.1  \
+    cohere \
+    chromadb==0.4.15 
+    onnxruntime
+    pypdf
+    langchain-community
