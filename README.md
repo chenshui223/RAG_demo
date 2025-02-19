@@ -30,7 +30,7 @@
 
 问题：你知道baichuan2模型吗？
 
-回答：![alt text](<p1.png>)
+回答：![alt text](/picture/p1.png)
 ### 创建一个RAG对话模型
 #### 1. 加载数据 （以"https://arxiv.org/pdf/1706.03762"论文为例）
 ```
@@ -87,11 +87,11 @@ def augment_prompt(query: str):
 ### 创建一个对话模型(with RAG)
 问题一：你知道baichuan2模型吗？
 
-回答：![alt text](p2.png)
+回答：![alt text](/picture/p2.png)
 
 问题二：How large is the baichuan2 vocabulary?
 
-回答：![alt text](p3.png)
+回答：![alt text](/picture/p3.png)
 
 ### Note:
 没有openai api的可以使用[GPT_API_free](https://github.com/chatanywhere/GPT_API_free)，很感谢他们对于开源项目的贡献。
