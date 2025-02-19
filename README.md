@@ -31,7 +31,7 @@
 问题：你知道baichuan2模型吗？
 
 回答：![alt text](/picture/p1.png)
-### 创建一个RAG对话模型
+### 创建一个RAG对话模型（with RAG）
 #### 1. 加载数据 （以"https://arxiv.org/pdf/1706.03762"论文为例）
 ```
 from langchain.document_loaders import PyPDFLoader
@@ -84,7 +84,7 @@ def augment_prompt(query: str):
   query: {query}"""
   return augmented_prompt
   ```
-### 创建一个对话模型(with RAG)
+### 对话
 问题一：你知道baichuan2模型吗？
 
 回答：![alt text](/picture/p2.png)
